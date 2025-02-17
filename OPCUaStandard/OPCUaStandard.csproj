@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Nullable>enable</Nullable>
+        <Authors>Joc-Luis</Authors>
+        <Description>A client for OPC UA servers</Description>
+        <Copyright>Joc-Luis</Copyright>
+        <Title>OPCUaStandard</Title>
+        <PackageProjectUrl>https://github.com/joc-luis/OPCUaStandard</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/joc-luis/OPCUaStandard/blob/master/LICENSE.md</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/joc-luis/OPCUaStandard</RepositoryUrl>
+        <RepositoryType>GIT</RepositoryType>
+        <PackageTags>OPC, UA, Client, Standard</PackageTags>
+        <PackageReleaseNotes>First publication</PackageReleaseNotes>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="OPCFoundation.NetStandard.Opc.Ua" Version="1.5.374.158" />
+        <PackageReference Include="OPCFoundation.NetStandard.Opc.Ua.Client" Version="1.5.374.158" />
+        <PackageReference Include="OPCFoundation.NetStandard.Opc.Ua.Configuration" Version="1.5.374.158" />
+        <PackageReference Include="OPCFoundation.NetStandard.Opc.Ua.Core" Version="1.5.374.158" />
+    </ItemGroup>
+
+</Project>
